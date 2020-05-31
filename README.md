@@ -1,4 +1,23 @@
 ## Cleo Frontend Interview - Bills
+
+## Demo link
+- [Demo here!](https://bills-demo-2020.web.app/)
+Note that the hosted app is not using a database, but just a JS object to store the data since you would need to connect it to a backend or database server to manage that properly. If run locally though you can operate it properly through the json-server API
+
+### Recommendations for the app (if I had more time and working as part of Cleo team 🤓)
+- Making the app fully responsive and mobile friendly in all orientations
+- Adding ability to choose how many items display per page
+- Adding dark mode theme
+- Allowing the user to create a new bill or receipt, edit exiting ones, add transactions, etc.
+- Add more comprehensive testing as the app grows
+- Integrating GraphQL through the Apollo client for interfacing with the API
+- Incorporating better styling throughout and greater consistency with the branding of Cleo
+- Extending the app with user profiles and authentication
+- Connecting the front end of the app to available, open APIs for random data (https://randomuser.me)
+
+### API
+Please note that in the ./api/api.ts file, there are two two halves - the first half can be used if the site is being hosted locally and json-server is being used to serve the data, the other is used for simple demo hosting purposes so that it does not need to be connected to a backend or hosted database.
+
 ### Get Started
 1. Fork or clone this repo (a simple [`create-react-app`](https://github.com/facebook/create-react-app) extended with [`json-server`](https://github.com/typicode/json-server) and some Cleo-specific goodies)
 1. Install dependencies via `yarn` (or `npm`)
